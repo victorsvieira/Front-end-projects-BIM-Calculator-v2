@@ -1,0 +1,184 @@
+.appDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.rectangle {
+    height: 20px;
+    width: 200px;
+}
+
+.graphic-reference {
+    display: flex;
+    margin-top: 25px;
+    height: 20px;
+    /* aumentei um pouco pra caber o texto */
+    width: 100%;
+    font-size: 12px;
+    /* texto menor pra caber bem */
+    color: white;
+    /* deixa o texto visível em cores escuras */
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 25px;
+
+
+}
+
+.rect {
+    flex: 1;
+    display: flex;
+    /* flexbox dentro de cada retângulo */
+    align-items: center;
+    /* centraliza vertical */
+    justify-content: center;
+    /* centraliza horizontal */
+    height: 100%;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+    color: black;
+}
+
+.darkorange {
+    background-color: darkorange;
+}
+
+.red {
+    background-color: red;
+}
+
+.darkred {
+    background-color: darkred;
+}
+
+.header-graphic-reference {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.visual-interpretation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+
+}
+
+.calculator {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: center;
+    
+
+}
+
+.infoCalculator {
+    text-align: left;
+}
+
+.results {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: space-around;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.bim-result {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.extra-info{
+    margin-top: 50px;
+    
+}
+
+.extra-info p{
+    margin-bottom: 50px;
+    
+}
+
+.extra-info p,h4{
+    text-align: left;
+    
+}
+
+.imcTextResult {
+    color: yellow;
+}
+
+.buttonCalculate {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    align-self: center;
+    max-width: 200px;
+    font-size: 1.5em;
+}
+
+label {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input {
+    max-width: 100px;
+    height: 40px;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
