@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className='Homepage'>
-        <h1>CALCULADORA DE IMC (Índice de Massa Comporal)</h1>
+        <h1>CALCULADORA DE IMC (Índice de Massa Corporal)</h1>
         <Calculator />
         <ExtraInfo />
        
