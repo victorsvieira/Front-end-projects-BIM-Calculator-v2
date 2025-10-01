@@ -44,4 +44,9 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  gap: 15px;
+}
+
+.header-graphic-reference p {
+  padding: 0px 5px;
 }

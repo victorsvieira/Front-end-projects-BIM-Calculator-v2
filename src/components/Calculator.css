@@ -223,3 +223,37 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+@media (max-width: 900px) {
+  .appDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 650px) {
+  .header-graphic-reference {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .graphic-reference {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    height: auto;
+    margin: 0px 15px;
+    width: 50%;
+    gap: 5px;
+    justify-content: space-evenly;
+  }
+  .rect {
+    max-height: 30px;
+  }
+
+  .visual-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

@@ -109,51 +109,53 @@ function Calculator({ darkMode }) {
         >
           {showResults && visualInterpretation(bim)}
         </div>
-        <div
-          className={
-            darkMode
-              ? "header-graphic-reference dark"
-              : "header-graphic-reference"
-          }
-        >
-          <p>
-            Abaixo do peso
-            <br />
-            &lt;18,5
-          </p>
-          <p>
-            Peso normal
-            <br />
-            18,5 a 24,9
-          </p>
-          <p>
-            Acima do peso
-            <br />
-            25 a 29,9
-          </p>
-          <p>
-            Obesidade 1º
-            <br />
-            30 a 34,9
-          </p>
-          <p>
-            Obesidade 2º
-            <br />
-            35 a 39,9
-          </p>
-          <p>
-            Obesidade 3º
-            <br />
-            &gt;18,5
-          </p>
-        </div>
-        <div className="graphic-reference">
-          <div className="rect yellow"></div>
-          <div className="rect green"></div>
-          <div className="rect orange"></div>
-          <div className="rect darkorange"></div>
-          <div className="rect red"></div>
-          <div className="rect darkred"></div>
+        <div className="visual-information">
+          <div
+            className={
+              darkMode
+                ? "header-graphic-reference dark"
+                : "header-graphic-reference"
+            }
+          >
+            <p>
+              Abaixo do peso
+              <br />
+              &lt;18,5
+            </p>
+            <p>
+              Peso normal
+              <br />
+              18,5 a 24,9
+            </p>
+            <p>
+              Acima do peso
+              <br />
+              25 a 29,9
+            </p>
+            <p>
+              Obesidade 1º
+              <br />
+              30 a 34,9
+            </p>
+            <p>
+              Obesidade 2º
+              <br />
+              35 a 39,9
+            </p>
+            <p>
+              Obesidade 3º
+              <br />
+              &gt;18,5
+            </p>
+          </div>
+          <div className="graphic-reference">
+            <div className="rect yellow"></div>
+            <div className="rect green"></div>
+            <div className="rect orange"></div>
+            <div className="rect darkorange"></div>
+            <div className="rect red"></div>
+            <div className="rect darkred"></div>
+          </div>
         </div>
 
         <p style={{ fontStyle: "italic" }}>
