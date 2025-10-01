@@ -159,7 +159,7 @@ function Calculator({ darkMode }) {
         </div>
 
         <p style={{ fontStyle: "italic" }}>
-          O bim é calculado dividindo o peso (em kg) pela altura ao quadrado (em
+          O IMC é calculado dividindo o peso (em kg) pela altura ao quadrado (em
           m), de acordo com a seguinte fórmula: bim = peso / (altura x altura).
         </p>
       </div>
