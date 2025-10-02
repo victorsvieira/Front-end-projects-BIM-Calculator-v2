@@ -145,7 +145,7 @@ function Calculator({ darkMode }) {
             <p>
               Obesidade 3º
               <br />
-              &gt;18,5
+              &gt;40
             </p>
           </div>
           <div className="graphic-reference">
